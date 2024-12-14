@@ -27,3 +27,11 @@ print("world,kanak LLP!")
 print(f"Age: {age}, Name: {name}")
 
 Print(age)
+
+#print function
+if __name__ == '__main__':
+    n = int(input())
+    
+    # Print numbers consecutively without spaces
+    for i in range(1, n + 1):
+        print(i, end="")
