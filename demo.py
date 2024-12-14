@@ -25,3 +25,5 @@ print("world,kanak LLP!")
 
 #String formatting (F- strings)
 print(f"Age: {age}, Name: {name}")
+
+Print(age)
