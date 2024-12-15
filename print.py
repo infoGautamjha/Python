@@ -22,3 +22,6 @@ print("Gautam", end=" ")
 print("jha from Karanpur")
 
 print (f"Age:{age}, Name: {Name}")
+
+print ("Pradeep Jha", end=", ")
+print("gautam Jha", ", ""Deepak Jha")
