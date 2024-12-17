@@ -1,3 +1,4 @@
+'''
 a= 12
 b=13
 sum = a+b
@@ -35,3 +36,5 @@ if __name__ == '__main__':
     # Print numbers consecutively without spaces
     for i in range(1, n + 1):
         print(i, end="")
+        '''
+
