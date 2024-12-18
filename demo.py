@@ -11,6 +11,8 @@ print(name ,age , city)
 #simple text output
 print("Hello Gautam Jha")
 
+print("Jha")
+
 #Printing Multiple Line
 #name = "Kanak LLp"
 #age = 15
