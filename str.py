@@ -96,6 +96,7 @@ print(b7.count("not"))
 print(b7.count("o"))
 
 '''
+print("Jha")
 
 
 
