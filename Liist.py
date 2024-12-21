@@ -9,10 +9,23 @@ print(mark[0])
 mark[0]="Gaurav"
 print(mark)
 print(mark[:])
-'''
+
 tp=(1,2,3,4)
 print(tp)
 print(type(tp))
 print(tp[1])
 tp[1]="Jha"
 print(tp)
+
+office= [13,33,55,55,64,6,25,44]
+
+print(office)
+print(list.sort(office))
+print(type(office))
+print(office[3])
+office[0]= "Jha"
+office[1]= "Gautam"
+office[2]= "kanak"
+print(office)
+print(list.sort(office))
+'''
