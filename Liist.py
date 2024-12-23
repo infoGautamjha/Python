@@ -29,3 +29,8 @@ office[2]= "kanak"
 print(office)
 print(list.sort(office))
 '''
+b5="Hii, I am gautam From Karanpur which falls is madhubani Dist of Bihar"
+print(b5.replace("a", "n"))
+print(b5)
+b5=b5.replace("gautam", "Pradeep Jha")
+print(b5)
