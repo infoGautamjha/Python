@@ -35,14 +35,3 @@ print(b5)
 b5=b5.replace("gautam", "Pradeep Jha")
 print(b5)
 '''
-office= [13,33,55,55,64,6,25,44]
-
-print(office)
-print(list.sort(office))
-print(type(office))
-print(office[3])
-office[0]= "Jha"
-office[1]= "Gautam"
-office[2]= "kanak"
-print(office)
-#print(list.sort(office))
