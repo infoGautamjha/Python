@@ -1,5 +1,5 @@
 #Pratice Q
-
+'''
 #Wap to input user first name & print its length
 name = input("Enter your name : ")
 print("length of your name is", len(name))
@@ -7,3 +7,4 @@ print("length of your name is", len(name))
 str = "hii,$ am the $123"
 print(str.count("$"))
 
+'''
