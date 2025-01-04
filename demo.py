@@ -39,4 +39,17 @@ if __name__ == '__main__':
     for i in range(1, n + 1):
         print(i, end="")
     '''
-git 
+public class ContactBatch implements Database.Batchable<sObject>{
+    public Database.QueryLocator start(Database.BatchableContext BC){
+        return Database.getQueryLocator('Select id from Contact');
+    }
+    Public void execute(database.BatchableContext BC, List<contact> scope){
+        for(Contact con : scope){
+            con.Title = 'JHA'; 
+          }
+             Update scope;   
+   }
+    public void finish(database.BatchableContext BC){
+         system.debug('Contacts Updated Successfully');    
+    }
+}
