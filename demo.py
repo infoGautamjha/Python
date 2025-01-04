@@ -38,7 +38,7 @@ if __name__ == '__main__':
     # Print numbers consecutively without spaces
     for i in range(1, n + 1):
         print(i, end="")
-    '''
+    #Batch Apex
 public class ContactBatch implements Database.Batchable<sObject>{
     public Database.QueryLocator start(Database.BatchableContext BC){
         return Database.getQueryLocator('Select id from Contact');
@@ -46,6 +46,23 @@ public class ContactBatch implements Database.Batchable<sObject>{
     Public void execute(database.BatchableContext BC, List<contact> scope){
         for(Contact con : scope){
             con.Title = 'JHA'; 
+          }
+             Update scope;   
+   }
+    public void finish(database.BatchableContext BC){
+         system.debug('Contacts Updated Successfully');    
+    }
+}
+
+'''
+public class ContactBatch implements Database.Batchable<sObject>{
+    public Database.QueryLocator start(Database.BatchableContext BC){
+        return Database.getQueryLocator('Select id from Contact');
+    }
+    Public void execute(database.BatchableContext BC, List<contact> scope){
+        for(Contact con : scope){
+            con.Title = 'JHA'; 
+            con.Email = 'Jhagautam62@gmail.com';
           }
              Update scope;   
    }
