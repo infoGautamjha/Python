@@ -54,7 +54,7 @@ public class ContactBatch implements Database.Batchable<sObject>{
     }
 }
 
-'''
+
 public class ContactBatch implements Database.Batchable<sObject>{
     public Database.QueryLocator start(Database.BatchableContext BC){
         return Database.getQueryLocator('Select id from Contact');
@@ -70,3 +70,6 @@ public class ContactBatch implements Database.Batchable<sObject>{
          system.debug('Contacts Updated Successfully');    
     }
 }
+'''
+add = lambda x, y: x + y
+print(add(3, 5))
